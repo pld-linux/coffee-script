@@ -24,8 +24,8 @@ an attempt to expose the good parts of JavaScript in a simple way.
 
 %prep
 %setup -q
-%patch0 -p0
-%patch1 -p1
+%patch -P0 -p0
+%patch -P1 -p1
 
 %build
 %{__sed} -i -e '1s,^#!.*node,#!/usr/bin/node,' bin/*
