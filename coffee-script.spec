@@ -2,7 +2,7 @@
 Summary:	The CoffeeScript Compiler
 Name:		coffee-script
 Version:	1.6.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Libraries
 URL:		http://coffeescript.org/
